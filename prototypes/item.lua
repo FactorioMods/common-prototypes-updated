@@ -16,12 +16,12 @@ data:extend({
   {
     type = "item",
     name = "gold-ore",
-    icon = "__common-prototypes-graphics__/icons/items/gold-ore-1.png",
+    icon = "__common-prototypes-graphics-updated__/icons/items/gold-ore-1.png",
     pictures =
     {
-      {size = 64, filename = "__common-prototypes-graphics__/icons/items/gold-ore-1.png", scale = 0.5, mipmap_count = 4},
-      {size = 64, filename = "__common-prototypes-graphics__/icons/items/gold-ore-2.png", scale = 0.5, mipmap_count = 4},
-      {size = 64, filename = "__common-prototypes-graphics__/icons/items/gold-ore-3.png", scale = 0.5, mipmap_count = 4},
+      {size = 64, filename = "__common-prototypes-graphics-updated__/icons/items/gold-ore-1.png", scale = 0.5, mipmap_count = 4},
+      {size = 64, filename = "__common-prototypes-graphics-updated__/icons/items/gold-ore-2.png", scale = 0.5, mipmap_count = 4},
+      {size = 64, filename = "__common-prototypes-graphics-updated__/icons/items/gold-ore-3.png", scale = 0.5, mipmap_count = 4},
     },
     subgroup = "raw-resource",
     order = "i[common-proto]-a[gold-ore]",
@@ -34,7 +34,7 @@ data:extend({
   {
     type = "item",
     name = "gold-plate",
-    icon = "__common-prototypes-graphics__/icons/items/gold-ingot.png",
+    icon = "__common-prototypes-graphics-updated__/icons/items/gold-ingot.png",
     subgroup = "raw-material",
     order = "a[smelting]-i[common-proto]-a[gold-plate]",
     inventory_move_sound = item_sounds.resource_inventory_move,
@@ -46,7 +46,7 @@ data:extend({
   {
     type = "item",
     name = "gold-cable",
-    icon = "__common-prototypes-graphics__/icons/items/gold-wire.png",
+    icon = "__common-prototypes-graphics-updated__/icons/items/gold-wire.png",
     subgroup = "intermediate-product",
     order = "e[common-proto]-a[gold-cable]",
     inventory_move_sound = item_sounds.wire_inventory_move,
@@ -59,12 +59,12 @@ data:extend({
   {
     type = "item",
     name = "silica-sand",
-    icon = "__common-prototypes-graphics__/icons/items/silica-sand-1.png",
+    icon = "__common-prototypes-graphics-updated__/icons/items/silica-sand-1.png",
     pictures =
     {
-      {size = 64, filename = "__common-prototypes-graphics__/icons/items/silica-sand-1.png", scale = 0.5, mipmap_count = 4},
-      {size = 64, filename = "__common-prototypes-graphics__/icons/items/silica-sand-2.png", scale = 0.5, mipmap_count = 4},
-      {size = 64, filename = "__common-prototypes-graphics__/icons/items/silica-sand-3.png", scale = 0.5, mipmap_count = 4},
+      {size = 64, filename = "__common-prototypes-graphics-updated__/icons/items/silica-sand-1.png", scale = 0.5, mipmap_count = 4},
+      {size = 64, filename = "__common-prototypes-graphics-updated__/icons/items/silica-sand-2.png", scale = 0.5, mipmap_count = 4},
+      {size = 64, filename = "__common-prototypes-graphics-updated__/icons/items/silica-sand-3.png", scale = 0.5, mipmap_count = 4},
     },
     subgroup = "raw-resource",
     order = "i[common-proto]-c[silica-sand]",
@@ -78,12 +78,12 @@ data:extend({
   {
     type = "item",
     name = "glass-plate",
-    icon = "__common-prototypes-graphics__/icons/items/glass-plate-1.png",
+    icon = "__common-prototypes-graphics-updated__/icons/items/glass-plate-1.png",
     pictures =
     {
-      {size = 64, filename = "__common-prototypes-graphics__/icons/items/glass-plate-1.png", scale = 0.5, mipmap_count = 4},
-      {size = 64, filename = "__common-prototypes-graphics__/icons/items/glass-plate-2.png", scale = 0.5, mipmap_count = 4},
-      {size = 64, filename = "__common-prototypes-graphics__/icons/items/glass-plate-3.png", scale = 0.5, mipmap_count = 4},
+      {size = 64, filename = "__common-prototypes-graphics-updated__/icons/items/glass-plate-1.png", scale = 0.5, mipmap_count = 4},
+      {size = 64, filename = "__common-prototypes-graphics-updated__/icons/items/glass-plate-2.png", scale = 0.5, mipmap_count = 4},
+      {size = 64, filename = "__common-prototypes-graphics-updated__/icons/items/glass-plate-3.png", scale = 0.5, mipmap_count = 4},
     },
     subgroup = "raw-material",
     order = "a[smelting]-i[common-proto]-c[glass-plate]",
@@ -97,12 +97,12 @@ data:extend({
   {
     type = "item",
     name = "glass-billet",
-    icon = "__common-prototypes-graphics__/icons/items/glass-billet-1.png",
+    icon = "__common-prototypes-graphics-updated__/icons/items/glass-billet-1.png",
     pictures =
     {
-      {size = 64, filename = "__common-prototypes-graphics__/icons/items/glass-billet-1.png", scale = 0.5, mipmap_count = 4},
-      {size = 64, filename = "__common-prototypes-graphics__/icons/items/glass-billet-2.png", scale = 0.5, mipmap_count = 4},
-      {size = 64, filename = "__common-prototypes-graphics__/icons/items/glass-billet-3.png", scale = 0.5, mipmap_count = 4},
+      {size = 64, filename = "__common-prototypes-graphics-updated__/icons/items/glass-billet-1.png", scale = 0.5, mipmap_count = 4},
+      {size = 64, filename = "__common-prototypes-graphics-updated__/icons/items/glass-billet-2.png", scale = 0.5, mipmap_count = 4},
+      {size = 64, filename = "__common-prototypes-graphics-updated__/icons/items/glass-billet-3.png", scale = 0.5, mipmap_count = 4},
     },
     subgroup = "raw-material",
     order = "a[smelting]-i[common-proto]-d[glass-billet]",
@@ -116,13 +116,13 @@ data:extend({
   {
     type = "item",
     name = "neodymium-ore",
-    icon = "__common-prototypes-graphics__/icons/items/neodymium-ore.png",
+    icon = "__common-prototypes-graphics-updated__/icons/items/neodymium-ore.png",
     pictures =
     {
-      {size = 64, filename = "__common-prototypes-graphics__/icons/items/neodymium-ore.png", scale = 0.5, mipmap_count = 4},
-      {size = 64, filename = "__common-prototypes-graphics__/icons/items/neodymium-ore-1.png", scale = 0.5, mipmap_count = 4},
-      {size = 64, filename = "__common-prototypes-graphics__/icons/items/neodymium-ore-2.png", scale = 0.5, mipmap_count = 4},
-      {size = 64, filename = "__common-prototypes-graphics__/icons/items/neodymium-ore-3.png", scale = 0.5, mipmap_count = 4}
+      {size = 64, filename = "__common-prototypes-graphics-updated__/icons/items/neodymium-ore.png", scale = 0.5, mipmap_count = 4},
+      {size = 64, filename = "__common-prototypes-graphics-updated__/icons/items/neodymium-ore-1.png", scale = 0.5, mipmap_count = 4},
+      {size = 64, filename = "__common-prototypes-graphics-updated__/icons/items/neodymium-ore-2.png", scale = 0.5, mipmap_count = 4},
+      {size = 64, filename = "__common-prototypes-graphics-updated__/icons/items/neodymium-ore-3.png", scale = 0.5, mipmap_count = 4}
     },
     subgroup = "raw-resource",
     order = "i[common-proto]-b[neodymium]",
@@ -135,7 +135,7 @@ data:extend({
   {
     type = "item",
     name = "neodymium-plate",
-    icon = "__common-prototypes-graphics__/icons/items/neodymium-plate.png",
+    icon = "__common-prototypes-graphics-updated__/icons/items/neodymium-plate.png",
     subgroup = "raw-material",
     order = "a[smelting]-i[common-proto]-b[neodymium-plate]",
     inventory_move_sound = item_sounds.resource_inventory_move,

@@ -4,20 +4,20 @@ data:extend({
         type = "recipe",
         name = "glass-plate-recycling",
         subgroup = "other",
-        category = "recycling",
+        categories = {"recycling"},
         hidden = true,
         enabled = true,
         unlock_results = false,
         icons = {
             {
-            icon = "__quality__/graphics/icons/recycling.png"
+            icon = "__recycler__/graphics/icons/recycling.png"
             },
             {
-            icon = "__common-prototypes-graphics__/icons/items/glass-plate-1.png",
+            icon = "__common-prototypes-graphics-updated__/icons/items/glass-plate-1.png",
             scale = 0.4
             },
             {
-            icon = "__quality__/graphics/icons/recycling-top.png"
+            icon = "__recycler__/graphics/icons/recycling-top.png"
             }
         },
         order = "c[lithium]-b[lithium-plate]",

@@ -3,7 +3,7 @@ data:extend(
   {
     type = "fluid",
     name = "molten-gold",
-    icon = "__common-prototypes-graphics__/icons/fluids/molten-gold.png",
+    icon = "__common-prototypes-graphics-updated__/icons/fluids/molten-gold.png",
     subgroup = "fluid",
     order = "b[common-proto]-e[fluid]-a[molten-gold]",
     default_temperature = 15,
@@ -16,7 +16,7 @@ data:extend(
   {
     type = "fluid",
     name = "molten-glass",
-    icon = "__common-prototypes-graphics__/icons/fluids/molten-glass.png",
+    icon = "__common-prototypes-graphics-updated__/icons/fluids/molten-glass.png",
     subgroup = "fluid",
     order = "b[common-proto]-e[fluid]-a[molten-glass]",
     default_temperature = 15,
